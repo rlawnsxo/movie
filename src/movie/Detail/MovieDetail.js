@@ -7,13 +7,12 @@ const MovieDetail = () => {
   const { state } = useLocation();
   console.log(state);
 
-  //   console.log(state);
   return (
     <>
       <NainImg img={state.movie.medium_cover_image}>
         <img style={{ zIndex: 2 }} src={state.movie.medium_cover_image} />
       </NainImg>
-      <Button></Button>
+      <Button />
       <Title>
         {state.movie.title}({state.movie.year})
       </Title>
