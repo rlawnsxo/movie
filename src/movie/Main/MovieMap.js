@@ -23,7 +23,7 @@ const MovieMap = (movie) => {
       onMouseDown={(e) => mouseDownCoords(e)}
       onMouseUp={(e) => clickOrDrag(movie, e)}
     >
-      <img src={movie.movie.medium_cover_image} />
+      <img style={{ padding: "10px" }} src={movie.movie.medium_cover_image} />
       <h2>{movie.movie.title}</h2>
       <ul>
         {movie.movie.genres.map((g) => (

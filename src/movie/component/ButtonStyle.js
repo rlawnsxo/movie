@@ -15,6 +15,7 @@ export const ButtonStyle = styled.button`
   border-radius: 10px;
   font-weight: 800;
   font-size: 15px;
+  z-index: 2;
   &:hover {
     opacity: 0.6;
     cursor: pointer;

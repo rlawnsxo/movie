@@ -5,9 +5,9 @@ export const NainImg = styled.div`
   height: 400px;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative; */
   &::before {
-    opacity: 0.5;
+    opacity: 0.3;
     position: absolute;
     width: 100%;
     height: 100%;
